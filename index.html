@@ -42,6 +42,7 @@
                 Architecto, excepturi. Nemo, beatae. Ducimus voluptatum doloremque sed natus! Beatae qui reprehenderit eius nulla.
             </p>
         </div>
+
         <div class="hero-form">
             <h3>Get Started Today</h3>
             <p>Fill out this form and one of our trainers will schedule a consult</p
@@ -54,8 +55,7 @@
 
                 <label for="phone">Enter a telephone number:</label>
                 <input type="text" placeholder="Phone Number" name="phone" id="phone" class="form-input">
-
-            <p>
+                <p>
                 Have you worked out with a trainer before?
                 <input type="radio" name="trainer-confirm" id="trainer-yes" />
                 <label for="trainer-yes">Yes</label>
@@ -74,12 +74,12 @@
         </form>
     </div>
 </section>
+<!-- end header -->
 
     <!-- "what we do" section -->
     <section id="what-we-do" class="intro">
         <div class="flex-row">
         <h2 class="section-title primary-border">What We Do</h2></div>
-        <div class="flex-row">
         <p>
             butcher selfies chambray shabby chic gentrify readymade yr Echo Park XOXO Tumblr normcore Banksy direct trade Blue
             Bottle chillwave you probably haven't heard of them single-origin coffee Vice fanny pack fixie Odd Future Austin
@@ -88,6 +88,7 @@
         </p>
         </div>
     </section>
+    <!-- end "what we do" -->
 
     <!-- "what you do" section -->
     <section id="what-you-do" class="steps">
@@ -146,16 +147,18 @@
     </div>
 </div>
     </section>
-
+    <div class="trainers">
     <!-- "meet the trainers" section -->
-    <section id="your-trainers" class="trainers">
+    <section id="your-trainers">
         <div class="flex-row">
         <h2 class="section-title primary-border">Meet The Trainers</h2></div>
+        
+        <div class="trainers">
         <article class="trainer">
             <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron" />
-            <div class="trainer-bio text-left">
-                <h3>Arron Stephens</h3>
-                <h4>Speed / Strength</h4>
+            <div class="trainer-bio">
+                <h3 class="trainer-name">Arron Stephens</h3>
+                <h4 class="trainer-role">Speed / Strength</h4>
                 <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In, id quo vel placeat eligendi praesentium est veritatis architecto temporibus consequuntur, 
                 reiciendis, similique vitae sed aliquam. Molestias nostrum fugiat eos possimus.
@@ -165,29 +168,31 @@
 
     <!-- second trainer bio -->
     <article class="trainer">
-        <div class="trainer-bio text-right">
-            <h3>Joanna Gill</h3>
-            <h4>Endurance</h4>
+        <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+        <div class="trainer-bio">
+            <h3 class="trainer-name">Joanna Gill</h3>
+            <h4 class="trainer-role">Endurance</h4>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laudantium qui necessitatibus ex quidem minus repellendus omnis? 
                 Reiciendis pariatur, officiis, ab vero sint ipsam corporis harum at delectus laboriosam exercitationem.
             </p>
         </div>
-        <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" />
+    
     </article>
 
     <!-- third trainer bio -->
     <article class="trainer">
         <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
-        <div class="trainer-bio text-left">
-            <h3>Harry "the Headband" Smith</h3>
-            <h4>Strength</h4>
+        <div class="trainer-bio">
+            <h3 class="trainer-name">Harry "the Headband" Smith</h3>
+            <h4 class="trainer-role">Strength</h4>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatum, 
                 omnis vitae enim aperiam iste hic expedita laboriosam sit? Sint nisi corrupti iure illum quod rem quam dolorum mollitia expedita.
             </p>
         </div>
     </article>
+</div>
     </section>
 
     <!-- "reach out" section -->
